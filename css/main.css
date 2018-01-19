@@ -1,0 +1,66 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.orange {
+  color: #FAA104;
+}
+
+.color-green {
+  color: #27CF21;
+}
+
+.logo-nav {
+  width: 10em;
+  display: inline-block;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-lg {
+  width: 15em;
+  display: inline-block;
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  position: fixed;
+  z-index: 100000;
+}
+
+.navmovile {
+  padding: 10px 10px 0 10px;
+  border-bottom: 3px solid black;
+}
+
+i.fa.fa-bars {
+    font-size: 40px;
+}
+
+.navdesktop {
+  margin-top: 7em;
+}
+
+@media only screen and (min-width: 1200px) {
+  .navdesktop {
+    margin-top: 10em;
+  }
+
+  .logo-lg {
+    width: 19em;
+    right: 17%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .carousel-inner img {
+    width: 100%;
+    height: 100vh;
+  }
+}
