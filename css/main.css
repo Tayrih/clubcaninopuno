@@ -15,6 +15,10 @@ button:focus {
   font-family: 'Montserrat', sans-serif;
 }
 
+.font-3 {
+  font-family: 'Indie Flower', cursive;
+}
+
 .orange {
   color: #FAA104;
 }
@@ -23,8 +27,18 @@ button:focus {
   color: #28a745;
 }
 
+.bg-green {
+  margin-top: 20px;
+  background-color: #28a745;
+}
+
+.box-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .logo-nav {
-  width: 9em;
+  width: 6em;
   display: inline-block;
 }
 
@@ -90,7 +104,7 @@ a.style2:hover {
   font-size: 20px;
 }
 
-.card.col.cards-home:hover {
+.card.col-12.cards-home:hover {
   background-color: rgba(0,0,0,0.1);
 }
 
@@ -118,6 +132,38 @@ a.style2:hover {
 
 .cont-galery {
   background-color: #fff;
+}
+
+h2.color-green {
+  font-size: 1.5rem;
+}
+
+.icon-footer i {
+  color: #fff;
+  display: inline-block;
+  font-size: 2em;
+  padding: 5px;
+}
+
+.icon-footer span {
+  color: #fff;
+  display: inline-block;
+  font-size: 1em;
+  padding: 5px;
+}
+
+a.icon-footer :hover {
+  color: orange;
+}
+
+@media only screen and (min-width: 576px) {
+  h2.color-green {
+    font-size: 2rem;
+  }
+
+  .logo-nav {
+    width: 9em;
+  }
 }
 
 @media only screen and (min-width: 768px) {
