@@ -6,7 +6,15 @@ $(document).ready(function(){
     window.location.href = '../index.html';
   });
 
-  $('[data-id = "more"]').on('click', function() {
-    window.location.href = 'views/articulos.html';
+  $('[data-id = "more1"]').on('click', function() {
+    window.location.href = 'views/articulos.html#comportation';
+  });
+
+  $('[data-id = "more2"]').on('click', function() {
+    window.location.href = 'views/articulos.html#education';
+  });
+
+  $('[data-id = "more3"]').on('click', function() {
+    window.location.href = 'views/articulos.html#problems';
   });
 });
