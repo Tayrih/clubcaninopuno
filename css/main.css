@@ -156,6 +156,12 @@ a.icon-footer :hover {
   color: orange;
 }
 
+.card-body {
+  padding-top: 0;
+}
+
+
+
 @media only screen and (min-width: 576px) {
   h2.color-green {
     font-size: 2rem;
@@ -184,6 +190,10 @@ a.icon-footer :hover {
 
   h2.color-green {
     font-size: 3rem;
+  }
+
+  div#comportation {
+    padding-top: 5%;
   }
 }
 
